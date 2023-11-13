@@ -1,4 +1,5 @@
 import React from "react";
+import { ShopContext } from "../../context/shopContext";
 
 export default function Product(props) {
   const { id, productName, price, productImage } = props.data;
@@ -6,7 +7,9 @@ export default function Product(props) {
     <div className="product">
       <img src={productImage} />
       <div className="desc">
-        <p><b>{productName}</b></p>
+        <p>
+          <b>{productName}</b>
+        </p>
         <p>€{price}</p>
       </div>
       <button className="addToCartBttn"> Add To Cart</button>
