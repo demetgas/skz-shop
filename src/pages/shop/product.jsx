@@ -5,6 +5,10 @@ export default function Product(props) {
   return (
     <div className="product">
       <img src={productImage} />
+      <div className="desc">
+        <p><b>{productName}</b></p>
+        <p>€{price}</p>
+      </div>
     </div>
   );
 }

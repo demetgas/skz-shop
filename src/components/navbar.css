@@ -10,6 +10,12 @@ html {
   justify-content: flex-end;
   align-items: center;
 }
+.navbar img{
+  margin-top:20px;
+  width: 230px;
+  height: 100px;
+  margin-right: 34rem;
+}
 .links {
   margin-right: 50px;
   display: flex;
