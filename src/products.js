@@ -41,7 +41,7 @@ export const PRODUCTS = [
   {
     id: 6,
     productName: "Maxident Album",
-    price: 39.9,
+    price: 39.95,
     productImage: p6,
   },
   {
