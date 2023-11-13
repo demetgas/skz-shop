@@ -21,11 +21,15 @@ export const Cart = () => {
           }
         })}
       </div>
-      <div className="checkout">
-        <p> Total: €{totalAmount}</p>
-        <button onClick={() => navigate("/")}> Continue Shopping</button>
-        <button> Payment</button>
-      </div>
+      {totalAmount > 0 ? (
+        <div className="checkout">
+          <p> Total: €{totalAmount}</p>
+          <button onClick={() => navigate("/")}> Continue Shopping</button>
+          <button> Payment</button>
+        </div>
+      ) : (
+        <h1> Your Cart is Empty </h1>
+      )}
     </div>
   );
 };
