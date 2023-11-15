@@ -7,7 +7,10 @@ export const Shop = () => {
   return (
     <div className="shop">
       <div className="shopTitle">
-        <a className="t" href="https://www.youtube.com/channel/UC9rMiEjNaCSsebs31MRDCRA">
+        <a
+          className="t"
+          href="https://www.youtube.com/channel/UC9rMiEjNaCSsebs31MRDCRA"
+        >
           <h1>SKZ SHOP</h1>
         </a>
       </div>
