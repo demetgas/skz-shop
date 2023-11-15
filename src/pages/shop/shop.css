@@ -1,6 +1,13 @@
 .shopTitle {
   margin-top: 100px;
   text-align: center;
+  background-color: #3f4044;
+  background-image: linear-gradient(to top, rgb(177, 175, 175) 0%, #01061b 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 .products {
   width: 100%;
