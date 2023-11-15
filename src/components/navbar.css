@@ -15,6 +15,7 @@ html {
   width: 230px;
   height: 100px;
   margin-right: 37rem;
+  cursor: pointer;
 }
 .links {
   margin-right: 50px;
