@@ -37,3 +37,8 @@
   cursor: pointer;
   transition: background-color 0.5s;
 }
+.fText {
+  color: white;
+  margin-right: 90rem;
+  margin-top: 25px;
+}
