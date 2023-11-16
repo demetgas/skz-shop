@@ -1,0 +1,7 @@
+.footerLists {
+  display: flex;
+  justify-content: space-between;
+}
+.list {
+  list-style-type: none;
+}
