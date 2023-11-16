@@ -17,6 +17,11 @@ html {
   margin-right: 37rem;
   cursor: pointer;
 }
+.navbar img:hover {
+  transform: scale(1.075);
+  transition: 0.2s ease-in;
+  color: rgb(156, 153, 192);
+}
 .links {
   margin-right: 50px;
   display: flex;
