@@ -6,6 +6,8 @@ import p5 from "./assets/5.png";
 import p6 from "./assets/6.png";
 import p7 from "./assets/7.png";
 import p8 from "./assets/8.png";
+import p9 from "./assets/9.png";
+
 
 export const PRODUCTS = [
   {
@@ -55,5 +57,11 @@ export const PRODUCTS = [
     productName: "SKZ Phone Case",
     price: 8.89,
     productImage: p8,
+  },
+  {
+    id: 9,
+    productName: "Rock-Star Album",
+    price: 28.48,
+    productImage: p9,
   },
 ];
