@@ -1,6 +1,13 @@
 import React from "react";
 import "./footer.css";
 import p1 from "../assets/chris.png";
+import p2 from "../assets/in.png";
+import p3 from "../assets/felix.png";
+import p4 from "../assets/lee.png";
+import p5 from "../assets/hj.png";
+import p6 from "../assets/han.png";
+import p7 from "../assets/se.png";
+import p8 from "../assets/cb.png";
 
 export const Footer = () => {
   return (
@@ -10,7 +17,6 @@ export const Footer = () => {
           <a href="/" className="listTitle">
             SKZ SHOP
           </a>
-          <img className="img" src={p1} />
           <li className="listItems">Frequently Asked Questions</li>
           <li className="listItems">Careers</li>
           <li className="listItems">Reviews</li>
@@ -40,6 +46,14 @@ export const Footer = () => {
           <li className="listItems">Wrong Shipping</li>
         </ul>
       </div>
+      <img className="img" src={p1} />
+      <img className="img" src={p2} />
+      <img className="img" src={p3} />
+      <img className="img" src={p4} />
+      <img className="img" src={p5} />
+      <img className="img" src={p6} />
+      <img className="img" src={p7} />
+      <img className="img" src={p8} />
       <div className="fText">Copyright © 2023 ELKOS/RM -mo. </div>
     </div>
   );
