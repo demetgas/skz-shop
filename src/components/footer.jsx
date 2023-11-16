@@ -44,8 +44,10 @@ export const Footer = () => {
           <li className="listItems">Investor Relations</li>
           <li className="listItems">Press Center</li>
           <li className="listItems">Wrong Shipping</li>
-        </ul>
+        </ul> 
       </div>
+      <div className="fText">Copyright © 2023 ELKOS/RM -mo. </div>
+      <div className="pics">
       <img className="img" src={p1} />
       <img className="img" src={p4} />
       <img className="img" src={p2} />
@@ -54,7 +56,7 @@ export const Footer = () => {
       <img className="img" src={p3} />
       <img className="img" src={p7} />
       <img className="img" src={p8} />
-      <div className="fText">Copyright © 2023 ELKOS/RM -mo. </div>
+      </div>
     </div>
   );
 };
