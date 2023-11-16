@@ -42,7 +42,9 @@
   margin-right: 90rem;
   margin-top: 25px;
 }
-.img{
-    width: 120px;
-    position: absolute;
+.img {
+  width: 120px;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -200px;
 }
