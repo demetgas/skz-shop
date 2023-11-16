@@ -38,6 +38,7 @@ export const Footer = () => {
           <li className="listItems">Wrong Shipping</li>
         </ul>
       </div>
+      <div className="fText">Copyright © 2023 ELKOS/RM -mo. </div>
     </div>
   );
 };
