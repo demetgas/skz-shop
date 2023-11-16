@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import p1 from "../assets/chris.png";
 
 export const Footer = () => {
   return (
@@ -9,6 +10,7 @@ export const Footer = () => {
           <a href="/" className="listTitle">
             SKZ SHOP
           </a>
+          <img className="img" src={p1} />
           <li className="listItems">Frequently Asked Questions</li>
           <li className="listItems">Careers</li>
           <li className="listItems">Reviews</li>
