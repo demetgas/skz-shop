@@ -6,7 +6,7 @@ export const Footer = () => {
     <div className="footer">
       <div className="footerLists">
         <ul className="list">
-          <a href="" className="listTitle">
+          <a href="/" className="listTitle">
             SKZ SHOP
           </a>
           <li className="listItems">Frequently Asked Questions</li>
@@ -14,7 +14,7 @@ export const Footer = () => {
           <li className="listItems">Reviews</li>
         </ul>
         <ul className="list">
-          <a href="" className="listTitle">
+          <a href="/" className="listTitle">
             ABOUT US
           </a>
           <li className="listItems">Contact Us</li>
@@ -22,7 +22,7 @@ export const Footer = () => {
           <li className="listItems">Sustainability</li>
         </ul>
         <ul className="list">
-          <a href="" className="listTitle">
+          <a href="/" className="listTitle">
             HELP
           </a>
           <li className="listItems">Partner Help</li>
@@ -30,7 +30,7 @@ export const Footer = () => {
           <li className="listItems">Return</li>
         </ul>
         <ul className="list">
-          <a href="" className="listTitle">
+          <a href="/" className="listTitle">
             Customer Service
           </a>
           <li className="listItems">Investor Relations</li>
