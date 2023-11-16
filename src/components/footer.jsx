@@ -47,11 +47,11 @@ export const Footer = () => {
         </ul>
       </div>
       <img className="img" src={p1} />
-      <img className="img" src={p2} />
-      <img className="img" src={p3} />
       <img className="img" src={p4} />
+      <img className="img" src={p2} />
       <img className="img" src={p5} />
       <img className="img" src={p6} />
+      <img className="img" src={p3} />
       <img className="img" src={p7} />
       <img className="img" src={p8} />
       <div className="fText">Copyright © 2023 ELKOS/RM -mo. </div>
